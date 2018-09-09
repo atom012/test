@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		while (scanner.hasNext()) {
+			int n = scanner.nextInt();
+			int[] arr = new int[n + 1];
+			for(int i = 1; i<=n;i++){
+				arr[i] = scanner.nextInt();
+			}
+			int kk = scanner.nextInt();
+			int dd = scanner.nextInt();
+			String str = scanner.next();
+			
+			System.out.println(n+"_arr_"+arr+"_kk_" + kk+"_dd_"+dd+"_str_"+str);
+		}
+
+		
+		scanner.close();
+	}
+
+}
